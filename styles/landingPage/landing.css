@@ -1,0 +1,151 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.card{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2.5rem 10rem 2.4rem 10rem;
+}
+
+.card .marca img{
+    height: 200px;
+    border-radius: 50%;
+}
+
+.card .marca #square{
+    border-radius: 0;
+}
+
+.card .marca{
+    display: flex;
+    justify-content: center;
+    color: #24262b;
+    height: auto;
+    padding: 100px 10px 50px 10px;
+    margin-right: 5px;
+}
+
+.info{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2rem;
+}
+
+.info .descripcion{
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 50px;
+     
+}
+
+.info .descripcion label{
+    color: #3d3d3d;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 40px;  
+    font-family: 'Lora', serif;
+}
+
+.descripcion a h3{
+    color: #807c7d;
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.descripcion a h3:hover{
+    font-size: 35px;
+    color: #696880;
+    padding: 5px;
+    transition: 0.5s ease;
+}
+
+.muestra img{
+    width: auto;
+    height: 150px;
+}
+
+.muestra{
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    width: auto;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.horario{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.info .pieinfo{
+    width: 80%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.info .pieinfo a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background: #ada8a8;
+    margin: 10px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #fff;
+    transition: all 0.3s ease;
+}
+
+.info .pieinfo a:hover{
+    color: #fff;
+    background-color: #3f3333;
+}
+
+.prueba label{
+    text-align: left;
+    margin-top: 10px;
+}
+
+.info .regresar{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.info a{
+    color: #555555;
+}
+
+.info a:hover{
+    color: #2c2c2c;
+}
+
+

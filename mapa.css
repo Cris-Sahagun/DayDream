@@ -1,0 +1,26 @@
+
+body{
+  background: #EAEDED;
+  text-align: center;
+  padding-top: 2em;
+}
+
+.mapa #ropa:hover{ 
+  fill: #884EA0;
+}
+
+.mapa #Entretenimiento:hover{ 
+  fill: #2471A3;
+}
+
+.mapa #cafeteria:hover{ 
+  fill:#27AE60 ;
+}
+
+.mapa #restaurante:hover{ 
+  fill:#CA6F1E;
+}
+
+.mapa #zapateria:hover{ 
+  fill:#566573;
+}

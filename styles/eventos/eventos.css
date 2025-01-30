@@ -1,0 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.actividades{
+    text-align: center;
+    margin: 50px auto 100px auto;
+}

@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.descuentos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.descuentos .encabezado{
+    margin: 20px auto 30px auto;
+}
+
+.descuentos .contenedor-ofertas{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px;
+    gap: 20px;
+}
+
+.contenedor-ofertas .promo{
+    height: 300px;
+    width: 300px;
+}
+
+.contenedor-ofertas .promo img{
+    height: 100%;
+    width: 100%;
+
+}

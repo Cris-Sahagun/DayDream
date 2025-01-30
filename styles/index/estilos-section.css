@@ -1,0 +1,105 @@
+
+.bienvenida{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.text-saludo{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    text-transform: uppercase;
+    font-size: 50px;
+}
+
+.publicidad-principal{
+    background: #003559;
+    color: white;
+}
+
+h2{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 2rem;
+}
+/*Slider principal*/
+.slider-frame{
+    width: 500px;
+    height: auto;
+    margin: 50px auto; 
+    overflow: hidden;
+    border: 1px solid black;
+}
+
+.slider-frame ul{
+    display: flex;
+    width: 400%;
+    height: 100%;
+    animation: slide 16s infinite alternate ease-in-out;
+
+}
+
+.slider-frame li{
+    list-style: none;
+    width: 100%;
+}
+
+.slider-frame img{
+    width: 100%;
+    height: 100%;
+}
+
+@keyframes slide {
+    0%{margin-left: 0%;}
+    20%{margin-left: 0%;}
+
+    25%{margin-left: -100%;}
+    45%{margin-left: -100%;}
+
+    50%{margin-left: -200%;}
+    70%{margin-left: -200%;}
+
+    75%{margin-left: -300%;}
+    100%{margin-left: -300%;}
+}
+
+
+/*Slider de marcas*/
+
+.slider {
+    width: 75vw;
+    height: auto;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slider .slide-track{
+    display: flex;
+    animation: scroll 40s linear infinite;
+    -webkit-animation: scroll 40s linear infinite;
+    width: calc(200px * 18); /*Si se añaden más imágenes cambiar el segundo número con el total de imágenes de este slider*/
+}
+
+.slider .slide{
+    width: 200px;
+    height: 75px;
+}
+
+.slider .slide img {
+    width: auto;
+    height: 100%;
+}
+
+@keyframes scroll{
+    0%{
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+    100% {
+        -webkit-transform: translateX(calc(-200px * 9)); /*Si se añaden más imágenes al slider cambiar el segundo número a la mitad del número de imágenes totales*/
+        transform: translateX(calc(-200px * 9)); /*Si se añaden más imágenes cambiar el segundo número a la mitad de imágenes*/
+    }
+}
